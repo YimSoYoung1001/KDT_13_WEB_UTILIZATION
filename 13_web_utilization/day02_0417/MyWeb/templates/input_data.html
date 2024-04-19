@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- <form action = "input/save_get" method = 'GET'> -->
+                    
+                    <!-- ┌ 저번 web basic에서는 .py으로 처리하도록 했다. -->
+                    <!-- ┌ 여기 action에 url이 들어가야 한다. -->
+    <form action = "{{action}}" method = "{{method}}" enctype="multipart/form-data">
+        <input type = 'text' name = 'value' placeholder = 'value'>
+        <br>
+        <input type = 'text' name = 'text' placeholder = 'text'>
+        <br>
+        <input type = 'file' name = 'file' accept = 'image/png, image/jpeg'>
+        <br>
+        <input type = 'submit' name = 'submit'>
+    </form>
+</body>
+</html>

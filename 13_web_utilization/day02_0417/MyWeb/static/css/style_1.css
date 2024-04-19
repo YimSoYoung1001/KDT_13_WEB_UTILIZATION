@@ -1,0 +1,12 @@
+/* 배경색 스타일 지정 */
+
+body{
+    background-color: rgba(242, 255, 100, 0.484);
+    text-align:center;
+    text-shadow:0dvi;
+    text-decoration-thickness:50px
+}
+
+h1{
+    color:rgb(134, 31, 0)
+}

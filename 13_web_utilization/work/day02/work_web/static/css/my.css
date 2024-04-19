@@ -1,0 +1,18 @@
+body {
+    margin-top: 600px;
+    align-content: center ;
+    color: rgb(247, 255, 223);
+    background-image: url('background.jpg');
+    background-size: cover;
+    text-align: center; /* 요소 내부의 텍스트를 가운데 정렬 */
+    margin: 0 auto; /* 요소를 가로 방향으로 가운데 정렬 */
+}
+
+form {
+    margin-top: 500px;
+    align-content: center ;
+    color: yellow;
+    text-align: center; /* 요소 내부의 텍스트를 가운데 정렬 */
+    margin: 0 auto; /* 요소를 가로 방향으로 가운데 정렬 */
+}
+
